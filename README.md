@@ -37,7 +37,7 @@ determining when tuning or sending CW is finished.)
 
 `radiolog.txt` -- one line per transmission.  
 Schema: Human-readable UTC timestamp, equivalent Unix seconds timestamp,
-frequency in Hertz, power in Watts, CW rate words per pinute.
+frequency in Hertz, power in Watts, CW rate words per minute.
 Example:
 ```
 08-23T18:52:19,1503514339,28087111,50,15
