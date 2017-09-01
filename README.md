@@ -30,3 +30,19 @@ This needs to be addressed for a long-running beacon.
 after failures, sleeping a tenth of a second between attempts.
 But other times we use the rigctl expecting an error, as when
 determining when tuning or sending CW is finished.)
+
+## Data files:
+
+`*.csv` -- Raw reception logs from the Reverse Beacon Network.
+
+`radiolog.txt` -- one line per transmission.  
+Schema: Human-readable UTC timestamp, equivalent Unix seconds timestamp,
+frequency in Hertz, power in Watts, CW rate words per pinute.
+Example:
+```
+08-23T18:52:19,1503514339,28087111,50,15
+08-23T18:52:59,1503514379,14087111,50,15
+08-23T18:53:39,1503514419,7087111,50,15
+08-23T18:54:18,1503514458,3587111,50,15
+```
+(Notice the first few lines in the file are missing the Power field.)
