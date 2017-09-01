@@ -74,12 +74,15 @@ cat <<~~~~~~
   In many of the graphs you can see the eclipse affecting the blue stars connected by lines
   representing the reception of the 20m beacon.  They tend to fade when totality is about
   halfway across America, and return by an hour after totality has left America.
+  More questionable is what happens during the hour or so before totality begins
+  (say from 15:30 to 17:15); for several stations, that time period seem weaker or spottier
+  than during the beginning of totality.
   <p>
   There is no guarantee the receiving stations were functional during the eclipse
   or at any other particular time, or on any band, unless it reported a positive
   reception.  You'll notice one station N2GZ that seems to have been up only around
   the time of the eclipse, and some stations (e.g. VE2WU) that were not up at all around
-  the eclipse.   Also remember this is a report of signal-to-noise ratio,
+  the eclipse.  Also remember this is a report of signal-to-noise ratio,
   not the actual power we were received at.   The most reports were from K1TTT,
   which regularly reported 80m at night, and even some sporadic 10m spots.
   <p>
@@ -87,6 +90,10 @@ cat <<~~~~~~
   except that 20m reception can be seen to suffer consistently in a number of the plots.
   <p>
   de W6REK (Henry Strickland)
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <a href="https://github.com/strickyak/eclipse-cw-beacon">(github.com/strickyak/eclipse-cw-beacon)</a>
 
 ~~~~~~
 
